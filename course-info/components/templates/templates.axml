@@ -1,0 +1,15 @@
+<view class="course-list" hidden="{{!show}}">
+  <view class="search-container">
+    <input class="search-bar" type="text" placeholder="Carilah data" onInput="onSearch" />
+  </view>
+  <block a:for= "{{filteredCourses}}" a:key="id">
+    <view class="course-card" onTap="getHalaman1" data-id="{{item.id}}">
+      <view class="course-item">
+        <text class="course-name">{{item.name}}</text>
+        <text class="course-id">ID: {{item.id}}</text>
+        <text class="course-schedule">{{item.schedule}}</text>
+        <text class="course-pertemuan">{{item.pertemuan}}</text>
+      </view>
+    </view>
+  </block>
+</view>

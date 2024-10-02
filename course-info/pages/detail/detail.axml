@@ -1,0 +1,4 @@
+<view class="container">
+  <!-- {{coursesDetail}} di page -->
+  <courses coursesDetail="{{coursesDetail}}"></courses>
+</view>

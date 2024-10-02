@@ -1,0 +1,58 @@
+/* pages/course-detail/course-detail.wxss */
+.container {
+  padding: 20rpx; /* Menggunakan satuan rpx, bukan px */
+  border-radius: 70rpx; /* Menggunakan satuan rpx */
+  border-width: 3rpx; /* Satuan border-width yang benar, rpx */
+  border-style: solid; /* Menambahkan gaya border, misalnya solid */
+  border-color: #000; /* Menambahkan warna border */
+  display: flex;
+  justify-content:last baseline;
+  list-style: none;
+  margin: 70rpx;
+  }
+
+
+
+
+.center {
+  text-align: center;
+  border: 3px solid orangered;
+}
+
+.course-name{
+  margin: 45rpx;
+  width: 10rpx;
+
+  
+}
+.course-schedule
+.course-pertemuan
+.course-primary
+.course-semester {
+  margin-bottom: 10rpx; /* Menggunakan satuan rpx */
+  font-size: 16rpx; /* Menggunakan satuan rpx */
+  text-align: left; /* Pilih satu: left, right, center. Jika tidak diperlukan, hapus */
+  text-decoration: none; /* Menghapus dekorasi teks, "orangered" bukanlah nilai yang valid */
+}
+
+.table {
+  border-width: 10rpx; /* Menggunakan satuan rpx */
+  border-style: solid; /* Menambahkan gaya border */
+  border-color: #000; /* Menambahkan warna border */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100rpx, 1fr)); /* Menggunakan satuan rpx, dan memastikan grid responsif */
+}
+
+.column {
+  float: left; /* Ini mungkin bertentangan dengan grid layout. Gunakan grid item jika menggunakan grid layout */
+  width: auto; /* Tidak perlu jika menggunakan grid layout */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

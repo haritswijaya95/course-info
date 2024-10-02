@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "template111": "/components/templates/templates"
+  },
+  "defaultTitle": "Home"
+}

@@ -1,0 +1,17 @@
+page {
+  background: #f7f7f7;
+}
+
+.container {
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  margin-top: 40px;
+  background-color: rgb(16, 55, 81);
+  color:white;
+  border-radius: 20px;
+}

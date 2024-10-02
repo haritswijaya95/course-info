@@ -1,0 +1,54 @@
+<view class="container-course-detail">
+  <view>
+
+    <view class="courses-schedule-name">Schedule</view>
+    <view class="courses-schedule-names">:</view>
+    <view class="courses-schedule-names-data">{{coursesDetail.schedule}}</view>
+  </view>
+
+  <view>
+    <view class="courses-pertemuan-names">:</view>
+    <view class="courses-pertemuan-names-data">{{coursesDetail.pertemuan}}</view>
+    <view class="courses-pertemuan-name">Pertemuan</view>
+  </view>
+
+  <view>
+
+    <view class="courses-name-data">{{coursesDetail.name}}</view>
+    <view class="courses-names">:</view>
+    <view class="courses-name">Matkul</view>
+
+  </view>
+
+  <view>
+
+    <view class="courses-primary">Name</view>
+    <view class="courses-primary-names">:</view>
+    <view class="courses-primary-names-data">
+      {{coursesDetail.primaryLecturer.name}}
+    </view>
+
+  </view>
+
+  <view>
+
+    <view class="courses-semester">Semester</view>
+    <view class="courses-semester-names">:</view>
+    <view class="courses-semester-names-data">{{coursesDetail.semester.name}}</view>
+  </view>
+
+  <!-- <view>
+
+    <view class="container">
+      <view class="schedule">:</view>
+      <view class="pertemuan">:</view>
+      <view class="name">:</view>
+      <view class="semester">:</view>
+
+    </view> -->
+
+  </view>
+
+
+
+

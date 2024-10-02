@@ -1,0 +1,10 @@
+<import src="/components/templates/templates.axml"/>
+<view class="container">
+
+  <template111 show="{{buttonNgirim}}"/>
+
+  <button onTap="buttonMencet">Open</button>
+  <detail></detail>
+  <modal-component show="{{showModal}}" onClose="closeModal" />
+
+</view>
